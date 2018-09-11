@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int fatorial(int n) {
+     if (n < 2)
+             return 1;
+     else 
+             return n * fatorial(n-1);
+}
